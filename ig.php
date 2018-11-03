@@ -181,10 +181,10 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 'referer: https://www.instagram.com/',
 'authority: www.instagram.com'
 ));
-$email = "wgans".rand(000000,9999999)."@gmail.com"; /// Edit Sama email Lo
-$username = "sgbteam.or.id_".rand(000000,9999999);  /// Edit Username yg u inginkan
+$email = "hudante1".rand(000000,9999999)."@gmail.com"; /// Edit Sama email Lo
+$username = "randialw_".rand(000000,9999999);  /// Edit Username yg u inginkan
 #$password = $username.randd();
-$password = "f0xbase123";  /// Edit password yg u inginkan
+$password = "katasandi7";  /// Edit password yg u inginkan
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
 "email" => $email,
 "password" => $password,
